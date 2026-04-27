@@ -1,0 +1,1 @@
+Narzędzie do automatycznego tworzenia miesięcznego grafiku pracy dla 11 pracowników, zbudowane w Excelu z wykorzystaniem OpenSolver (CBC). Model wykorzystuje zmienne binarne i zestaw ograniczeń operacyjnych oraz preferencyjnych.
