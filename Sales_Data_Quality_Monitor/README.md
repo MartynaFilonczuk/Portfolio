@@ -1,8 +1,8 @@
-## Project: Sales & Data Quality Monitor – Dirty Sales Data 4
+# Project: Sales & Data Quality Monitor – Dirty Sales Data 4
 This project demonstrates how to clean, transform, validate, and analyze poorly structured sales data using Power Query, Power BI, and data quality rules.
 The goal is to build a complete, professional Data Quality Monitor that identifies errors, visualizes data issues, and provides insights into sales performance.
 
-# 1. Project Overview
+## 1. Project Overview
 The dataset (“Dirty Sales Data 4”) contains sales information in a badly structured, matrix‑style format, where:
 
 shipping modes and customer segments are spread across multiple columns,
@@ -13,7 +13,7 @@ some records contain intentionally added errors (missing values, negative amount
 
 The project transforms this dataset into a clean, analytical model and builds a dashboard that monitors both sales metrics and data quality issues.
 
-# 2. Technologies Used
+## 2. Technologies Used
 Power BI Desktop
 
 Power Query (M language)
@@ -22,7 +22,7 @@ DAX (Data Analysis Expressions)
 
 Excel (source file)
 
-# 3. Data Cleaning & Transformation (Power Query)
+## 3. Data Cleaning & Transformation (Power Query)
 Key transformation steps:
 
 Converted matrix‑style data into a long format using Unpivot Other Columns
@@ -49,7 +49,7 @@ No Error
 
 These rules simulate real‑world data validation logic used in ETL processes.
 
-# 4. Dashboard Features (Power BI)
+## 4. Dashboard Features (Power BI)
 The report includes:
 
 KPI Cards
@@ -78,7 +78,7 @@ Segment
 
 Order Date (Year → Month hierarchy)
 
-# 5. DAX Measures
+## 5. DAX Measures
 Key measures used in the report:
 
 DAX
@@ -95,7 +95,7 @@ Valid Rows = [Total Rows] - [Error Rows]
 Error Rate % = DIVIDE([Error Rows], [Total Rows])
 
 Total Sales = SUM('Dirty 4'[Amount])
-# 6. What This Project Demonstrates
+## 6. What This Project Demonstrates
 This project showcases:
 
 Data cleaning and restructuring skills
@@ -112,7 +112,7 @@ Presenting both data quality and business insights in one report
 
 It is an excellent example of combining ETL thinking, data validation, and Power BI reporting.
 
-# 7. Repository Contents
+## 7. Repository Contents
 Dirty Sales Data 4.xlsx – source dataset
 
 Power BI report (.pbix)
@@ -121,7 +121,7 @@ Screenshots of the dashboard
 
 README (this file)
 
-# 8. Future Improvements
+## 8. Future Improvements
 Possible extensions:
 
 Automated refresh using Power Automate
